@@ -20,6 +20,10 @@ Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | ? |
 npm install selection-observer
 ```
 
+## Demo
+
+[Demo page](https://satanpit.github.io/selection-observer/)
+
 ## Example
 
 Listen all selection changes:

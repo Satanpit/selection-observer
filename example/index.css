@@ -79,7 +79,7 @@ tbody tr {
 }
 
 .focused {
-  outline: 2px solid rgba(78,133,222,.5) !important;
+  outline: 2px solid #4E85DE80 !important;
 }
 
 button {
@@ -143,7 +143,7 @@ main > section {
   align-items: center;
   justify-content: center;
   color: #fff;
-  background-color: #4E85DE;
+  background-color: #4E85DE80;
   border-radius: 2px 2px 0 0;
   font-size: 12px;
 }
