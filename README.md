@@ -29,7 +29,7 @@ npm install selection-observer
 Listen all selection changes:
 
 ```javascript
-import { SelectionObserver } from './selection-observer';
+import { SelectionObserver } from 'selection-observer';
 
 const observer = new SelectionObserver((entry) => {
   console.log(entry);
@@ -41,7 +41,7 @@ observer.observe(document.body);
 Listen only base element changes:
 
 ```javascript
-import { SelectionObserver } from './selection-observer';
+import { SelectionObserver } from 'selection-observer';
 
 const observer = new SelectionObserver((entry) => {
   console.log(entry);
