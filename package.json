@@ -1,0 +1,32 @@
+{
+  "name": "selection-observer",
+  "version": "0.0.1",
+  "description": "Observer for tracking selection changes",
+  "main": "dist/index.js",
+  "directories": {
+    "example": "example",
+    "lib": "lib"
+  },
+  "scripts": {
+    "dev": "parcel --open watch example/index.html -d ./.build",
+    "prepublish": "parcel build lib/index.js -d ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Satanpit/selection-observer.git"
+  },
+  "keywords": [
+    "javascript",
+    "selection",
+    "range"
+  ],
+  "author": "Alex Khyrenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Satanpit/selection-observer/issues"
+  },
+  "homepage": "https://github.com/Satanpit/selection-observer#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
