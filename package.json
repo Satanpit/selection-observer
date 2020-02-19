@@ -9,7 +9,7 @@
   },
   "scripts": {
     "dev": "parcel --open watch example/index.html -d ./.build",
-    "build:doc": "parcel build example/index.html -d ./docs",
+    "build:doc": "parcel build example/index.html -d ./docs --public-url ./",
     "prepublish": "parcel build lib/index.js -d ./dist"
   },
   "repository": {
